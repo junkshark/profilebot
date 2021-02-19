@@ -1,1 +1,2 @@
-작업자 : 파이썬  정보 .py
+discord.py==0.16.12
+datetime.py
