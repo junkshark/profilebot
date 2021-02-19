@@ -1,2 +1,1 @@
-discord.py==0.16.12
-datetime.py
+worker: python 정보.py
