@@ -1,5 +1,6 @@
 import discord
 import datetime
+import os
 
 client = discord.Client()
 
@@ -24,6 +25,7 @@ async def on_message(message):
         embed.add_field(name="아이디", value=message.author.id)
         embed.set_thumbnail(url=message.author.avatar_url)
         await message.channel.send(message.channel, embed=embed)
-
-
-client.run("ODEyMjEyNDIyOTk4ODg0Mzcz.YC9dww.FDPe6w_du8pFIMATiBdSkIy3WMU")
+        
+        
+access_token = os.environ["BOT_TOKEN"]        
+클라이언트 . 실행 (access_token) 
